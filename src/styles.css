@@ -1,0 +1,23 @@
+.semaforo {
+  width: 200px;
+  height: 500px;
+  border: 2px solid black;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  background-color: black;
+}
+
+.circle {
+  width: 6rem;
+  height: 6rem;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.light {
+  box-shadow: 1px 3px 150px 63px rgba(255, 251, 251, 1);
+}
